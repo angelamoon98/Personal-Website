@@ -1,0 +1,51 @@
+.profile-picture {
+  border-radius: 50%;
+}
+.name {
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.wrapper {
+  background-color: lightpink;
+  max-width: 50%;
+  display: flex;
+  flex-direction: row;
+  height: 80%;
+}
+.footer {
+  background-color: lightblue;
+  margin: 5px;
+  max-width: 50%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer li{
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.footer a {
+  text-decoration: none;
+  padding: 4px;
+}
+
+.footer a:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.body {
+    background: linear-gradient(to bottom, rgba(231, 240, 245, 1) 0%, rgba(170, 221, 235, 1) 100%);
+}
