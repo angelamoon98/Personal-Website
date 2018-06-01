@@ -1,6 +1,15 @@
 .profile-picture {
   border-radius: 50%;
 }
+.wrapper {
+  background-color: #EAE7DC;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.4em;
+  max-width: 50%;
+  display: flex;
+  flex-direction: row;
+  height: 80%;
+}
 .header {
     position: fixed;
     top: 0;
@@ -33,16 +42,6 @@ html, body {
   height: 100%;
   margin: 0px;
   padding: 0px;
-}
-
-.wrapper {
-  background-color: #EAE7DC;
-  font-family: 'Montserrat', sans-serif;
-  letter-spacing: 0.4em;
-  max-width: 50%;
-  display: flex;
-  flex-direction: row;
-  height: 80%;
 }
 .footer {
   background-color: lightblue;
