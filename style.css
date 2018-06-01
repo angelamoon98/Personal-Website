@@ -2,7 +2,7 @@
   border-radius: 50%;
 }
 .wrapper {
-  background-color: #EAE7DC;
+  background-color: #eae7dc;
   max-width: 50%;
   display: flex;
   flex-direction: row;
@@ -17,7 +17,7 @@
     text-transform: uppercase;
     text-align: center;
     width: 100%;
-    background-color: #fafafa;
+    background-color: #eae7dc;
     line-height: 100px;
     font-size: 15px;
     z-index: 1000;
