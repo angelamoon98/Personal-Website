@@ -1,14 +1,22 @@
 /* HEADING AND NAVIGATION BAR */
 
+body {
+  display: inline-flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
 .top-container {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   margin: auto;
-  padding: 8px;
+  padding: 10px;
   background-color: #d8c3a5;
   overflow: hidden;
+  align-self: flex-start;
 }
 
 .top-container h1 {
@@ -27,7 +35,6 @@
 }
 
 .top-container ul {
-  justify-content: space-around;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -39,13 +46,11 @@
 }
 
 .top-container ul a {
-  display: inline-block;
-  color: #000000;
+  color: #000;
   text-align: center;
   padding: 7px 20px 8px;
   text-decoration: none;
   font-family: 'Muli', sans-serif;
-  justify-content: center;
 }
 
 .top-container a:hover {
@@ -55,12 +60,18 @@
 
 /* ABOUT ME */
 .aboutme {
-  justify-content: space-around;
-  margin: auto;
-  float: left;
+  margin-top: 90px;
+  align-self: center;
+  display: inline-flex;
+  flex-wrap: wrap;
   font-family: 'Muli', sans-serif;
   font-size: 25px;
   background-color: #eae7dc;
+}
+
+.hello {
+  align-self: flex-start;
+  order: 0;
 }
 
 .aboutme a {
@@ -69,24 +80,18 @@
 }
 
 .intro h4{
-  margin: auto;
-  justify-content: flex-start;
   font-family: 'Muli', sans-serif;
   font-size: 25px;
 }
 #hand {
-  width: 30px;
+  width: 40px;
+  height: 100%;
+  order: 1;
 }
 
 #profile {
-  width: 250px;
-  justify-content: flex-end;
-  float: right;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 20px;
-  padding-top: 20px;
-  border-radius: 20%
+  width: 150px;
+  height: 100%;
 
 }
 /*.intro {
