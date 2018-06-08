@@ -1,9 +1,10 @@
 /* HEADING AND NAVIGATION BAR */
 
-body {
+body,html {
   display: inline-flex;
-  align-items: center;
+  align-items: space-around;
   flex-direction: column;
+  background-color: #eae7dc;
   margin: 0;
   padding: 0;
 }
@@ -13,7 +14,13 @@ body {
   left: 0;
   width: 100%;
   margin: auto;
-  padding: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 7px;
+  border-bottom-width: 3px;
+  border-bottom-color: #8e8d8a;
+  border-bottom-style: solid;
   background-color: #d8c3a5;
   overflow: hidden;
   align-self: flex-start;
@@ -54,68 +61,82 @@ body {
 }
 
 .top-container a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: #8e8d8a;
+  color: white;
 }
+
 
 /* ABOUT ME */
 .aboutme {
-  margin-top: 90px;
-  align-self: center;
+  padding: 20px;
   display: inline-flex;
-  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 90px;
   font-family: 'Muli', sans-serif;
   font-size: 25px;
   background-color: #eae7dc;
 }
-
-.hello {
-  align-self: flex-start;
+.intro {
   order: 0;
 }
-
-.aboutme a {
+.intro a {
   color: #e85a4f;
   text-decoration: none;
 }
 
-.intro h4{
+.intro h4, h6{
   font-family: 'Muli', sans-serif;
-  font-size: 25px;
 }
 #hand {
-  width: 40px;
-  height: 100%;
+  width: 30px;
+}
+.profile {
   order: 1;
+  align-self: center;
+  padding-left: 20px;
 }
-
 #profile {
-  width: 150px;
-  height: 100%;
-
+  width: 300px;
+  border-radius: 10%;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #8e8d8a;
+  height: auto;
 }
-/*.intro {
-  font-family: 'Muli';
-  font-size: 20px;
-  padding-top: 30px;
-  padding-left: 30px;
-}*/
 
+/* RESUME */
 
-/*.subintro {
-  line-height: 30px;
-  padding-left: 30px;
-}
 .resume {
-  position: relative;
-  background-color: #d8c3a5;
-  margin: auto;
+  padding-top: 90px;
+  display: inline-flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #eae7dc;
+  padding-left: 30px;
+  padding-right: 30px;
 }
-.resume p {
-  position: relative;
+
+.notepad-contents {
+  padding: 20px;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 8%;
+  border-color: #8e8d8a;
+  align-self: center;
+  background-color: #d8c3a5;
   font-family: 'Courier New';
   line-height: 20px;
-  padding-left: 50px;
   font-size: 15px;
+  align-self: center;
 }
-*/
+
+
+.work {
+
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  background-color: #d8c3a5;
+}
