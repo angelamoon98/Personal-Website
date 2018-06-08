@@ -74,7 +74,6 @@ body,html {
   display: inline-flex;
   flex-direction: row;
   justify-content: space-around;
-  flex-wrap: wrap;
   padding-top: 130px;
   font-family: 'Muli', sans-serif;
   font-size: 25px;
