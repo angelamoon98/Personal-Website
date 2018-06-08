@@ -3,6 +3,7 @@
 body,html {
   display: inline-flex;
   align-items: space-around;
+  flex-wrap: wrap;
   flex-direction: column;
   background-color: #eae7dc;
   margin: 0;
@@ -68,11 +69,13 @@ body,html {
 
 /* ABOUT ME */
 .aboutme {
-  padding: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
   display: inline-flex;
   flex-direction: row;
   justify-content: space-around;
-  padding-top: 90px;
+  flex-wrap: wrap;
+  padding-top: 130px;
   font-family: 'Muli', sans-serif;
   font-size: 25px;
   background-color: #eae7dc;
@@ -83,6 +86,7 @@ body,html {
 .intro a {
   color: #e85a4f;
   text-decoration: none;
+
 }
 
 .intro h4, h6{
@@ -108,17 +112,15 @@ body,html {
 /* RESUME */
 
 .resume {
-  padding-top: 90px;
+  padding-top: 110px;
   display: inline-flex;
   align-items: center;
   flex-direction: column;
   background-color: #eae7dc;
-  padding-left: 30px;
-  padding-right: 30px;
 }
 
 .notepad-contents {
-  padding: 20px;
+  padding: 30px;
   border-style: solid;
   border-width: 3px;
   border-radius: 8%;
